@@ -15,13 +15,16 @@
     --secondary-light: #C4B5FD;
     --secondary-color: #8B5CF6;
     --secondary-dark: #5B21B6;
+
+    --Jet: "JetBrains Mono", monospace;
+    --Inter: "Inter", sans-serif;
 }
 
 
 body {
     background-color: var(--background-color);
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
     min-height: 100dvh;
 }
 
@@ -48,6 +51,10 @@ footer p {
     padding: 0rem;
 }
 
+main {
+    display: grid;
+}
+
 nav {
     flex: 1;
 }
@@ -60,9 +67,8 @@ nav ul {
 }
 
 .nav-items {
-    font-family: "Inter", sans-serif;
+    font-family: var(--Inter);
     color: var(--text-color);
-    cursor: pointer;
 }
 
 .logo-wordbrand-section {
@@ -74,12 +80,28 @@ nav ul {
 h1 {
     font-weight: bold;
     color: var(--text-color);
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--Jet)
     
+}
+
+h2 {
+    color: var(--text-light);
+    font-family: var(--Jet)
 }
 
 p {
     color: var(--text-color);
+    font-family: var(--Inter);
+}
+
+em {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--text-color);
+    font-family: var(--Inter);
+    cursor: pointer;
 }
 
 .image-logo {

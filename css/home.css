@@ -1,0 +1,80 @@
+:root {
+    --background-light: #1C2635;
+    --background-color: #0D1117;
+    --background-dark: #070B10;
+
+    --text-light: #FFFFFF;
+    --text-color: #E6EDF3;
+    --text-dark: #AAB7C4;
+
+    --primary-light: #67E8FF;
+    --primary-color: #00CFFF;
+    --primary-dark: #008FC2;
+
+    --secondary-light: #C4B5FD;
+    --secondary-color: #8B5CF6;
+    --secondary-dark: #5B21B6;
+
+    --Jet: "JetBrains Mono", monospace;
+    --Inter: "Inter", sans-serif;
+}
+
+.intro {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 3rem;
+    
+}
+
+.eyebrow {
+    display: inline-block;
+    padding: 0.4em;
+    transform: rotate(-2deg);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+    
+    color: transparent;
+    background: linear-gradient(to right,var(--primary-color), var(--secondary-light));
+    background-clip: text;
+
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cta-button {
+    cursor: pointer;
+    border-radius: 2em;
+    background: linear-gradient(var(--primary-color),var(--secondary-dark));
+
+    width: 400px;
+    height: 50px;
+
+    padding: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button a {
+    font-size: 2.3rem;
+}
+
+.title {
+    font-size: 4.5em;
+    text-transform: uppercase;
+}
+
+.highlight {
+    display: block;
+    font-weight: bold;
+    text-shadow: var(--primary-dark) 0.05em 0.05em 0.5em;
+}
+
+.intro-description {
+    font-size: 1.5em;
+}

@@ -3,6 +3,8 @@
 
 Neem de controle over je setup.
 
+Bij CtrlHub vind je alles voor jouw ideale gaming-setup. Van gamingapparatuur tot accessoires: wij bieden kwaliteit, scherpe prijzen en alles wat je nodig hebt op één plek.
+
 # Producten
 
 ## ControlStrike GamingMuis
