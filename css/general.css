@@ -1,0 +1,91 @@
+
+:root {
+    --background-light: #1C2635;
+    --background-color: #0D1117;
+    --background-dark: #070B10;
+
+    --text-light: #FFFFFF;
+    --text-color: #E6EDF3;
+    --text-dark: #AAB7C4;
+
+    --primary-light: #67E8FF;
+    --primary-color: #00CFFF;
+    --primary-dark: #008FC2;
+
+    --secondary-light: #C4B5FD;
+    --secondary-color: #8B5CF6;
+    --secondary-dark: #5B21B6;
+}
+
+
+body {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-bottom: 0.1em solid var(--primary-dark);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1em dashed var(--primary-dark);
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.6rem;
+}
+
+footer p {
+    padding: 0rem;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-items {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.logo-wordbrand-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--text-color);
+    font-family: "JetBrains Mono", monospace;
+    
+}
+
+p {
+    color: var(--text-color);
+}
+
+.image-logo {
+    width: 5em;
+}
+
+.header-title-part2 {
+    color: var(--primary-color);
+}
