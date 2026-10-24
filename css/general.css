@@ -24,7 +24,7 @@
 body {
     background-color: var(--background-color);
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto 1fr auto;
     min-height: 100dvh;
 }
 
@@ -45,6 +45,7 @@ footer {
     align-items: center;
     gap: 0.3rem;
     padding: 0.6rem;
+
 }
 
 footer p {
@@ -52,7 +53,9 @@ footer p {
 }
 
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 nav {
@@ -69,6 +72,7 @@ nav ul {
 .nav-items {
     font-family: var(--Inter);
     color: var(--text-color);
+    font-size: 2rem;
 }
 
 .logo-wordbrand-section {
@@ -80,11 +84,16 @@ nav ul {
 h1 {
     font-weight: bold;
     color: var(--text-color);
-    font-family: var(--Jet)
-    
+    font-family: var(--Jet);
+    font-size: 2.5rem;
 }
 
 h2 {
+    color: var(--text-light);
+    font-family: var(--Jet)
+}
+
+h3 {
     color: var(--text-light);
     font-family: var(--Jet)
 }
