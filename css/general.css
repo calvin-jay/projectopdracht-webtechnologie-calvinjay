@@ -58,6 +58,13 @@ main {
     flex-grow: 1;
 }
 
+/*Mobile*/
+@media (max-width: 768px) {
+    main {
+        
+    }
+}
+
 nav {
     flex: 1;
 }
