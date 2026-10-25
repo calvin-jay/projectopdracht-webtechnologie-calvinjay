@@ -28,7 +28,7 @@ body {
     min-height: 100dvh;
 }
 
-header {
+.main-header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
